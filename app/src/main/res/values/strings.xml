@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TimeTracker</string>
+    <string name="confirm_yes">OK</string>
+    <string name="confirm_no">Cancel</string>
+</resources>

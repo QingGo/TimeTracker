@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_watchrecord"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="112dp"
+        android:background="@color/button_color"
+        android:onClick="enterWatchRecord"
+        android:text="Watch Record"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_StartTrack"
+        android:layout_width="173dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="40dp"
+        android:background="#9DD4A4"
+        android:onClick="enterStartTrack"
+        android:text="Start Track"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_watchrecord"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView_Logo"
+        android:layout_width="345dp"
+        android:layout_height="157dp"
+        android:layout_marginTop="124dp"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
